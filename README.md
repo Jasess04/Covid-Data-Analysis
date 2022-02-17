@@ -10,3 +10,11 @@ import seaborn as sns #               the data visualization library used in con
 
 
 
+Category 2: Utilize External Data:
+Read data from an external file, such as text, JSON, CSV, etc, and use that data in your application.
+
+Category 3: Data Display
+Visualize data in a graph, chart, or other visual representation of data.
+
+“STRETCH” FEATURE LIST:
+Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display.
