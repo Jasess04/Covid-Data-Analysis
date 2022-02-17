@@ -2,7 +2,7 @@ import pandas as pd #pandas is being used to manipulate matplotlib and NumPy
 import numpy as np #is being used for mathematical operations
 import matplotlib.pyplot as plt #is used for data visualization
 import seaborn as sns #the data visualization library used in conjuction with matplotlib
-import plotly.express as px ### for plotting the data on world map
+
 
 
 #the raw CVS data from John Hopkins University's daily Covid-19 reports during the 02-11-2022 timeframe
@@ -30,18 +30,3 @@ plot = sns.barplot(top_20['Confirmed'], top_20['Country'])
 for i,(value,name) in enumerate(zip(top_20['Confirmed'],top_20['Country'])):
   plot.text(value,i-0.05,f'{value:,.0f}',size=10)
 plt.show()
-
-#Plotting Confirmed and Active cases for the top 5 countries with the maximum number of confirmed cases
-top_5 = world.sort_values(by=['Confirmed'], ascending=False).head()
-
-plt.figure(figsize=(10,5))
-confirmed = sns.barplot(top_5['Confirmed'], top_5['Country'], color = 'red', label='Confirmed')
-recovered = sns.barplot(top_5['Recovered'], top_5['Country'], color = 'blue', label='Recovered')
-
-### Add Texts for Barplots
-for i,(value,name) in enumerate(zip(top_5['Confirmed'],top_5['Country'])):
-    confirmed.text(value,i-0.05,f'{value:,.0f}',size=9)
-for i,(value,name) in enumerate(zip(top_5['Recovered'],top_5['Country'])):
-    recovered.text(value,i-0.05,f'{value:,.0f}',size=9)
-plt.legend(loc=4)
-plt.show() 
