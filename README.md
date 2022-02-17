@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt #     matplot is used for data visualization
 import seaborn as sns #               the data visualization library used in conjuction with matplotlib
 
 
+                                                      Requirements
 
 Category 2: Utilize External Data:
 Read data from an external file, such as text, JSON, CSV, etc, and use that data in your application.
