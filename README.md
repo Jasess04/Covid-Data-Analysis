@@ -4,8 +4,11 @@ This project is focused on daily reported data published by John Hopkins Univers
 These are the packages that will need to be imported in order to make the program run. 
 
 import pandas as pd #                 pandas is being used to manipulate matplotlib and NumPy
+
 import numpy as np #                  numby is being used for mathematical operations
+
 import matplotlib.pyplot as plt #     matplot is used for data visualization
+
 import seaborn as sns #               the data visualization library used in conjuction with matplotlib
 
 
