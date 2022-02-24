@@ -20,6 +20,8 @@ The Data will be pulled from the John Hopkins URL for 2/2/2022 and the data will
 
 Features Implemented
 
+Category 1:Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
+
 Category 2: Utilize External Data: Read data from an external file, such as text, JSON, CSV, etc, and use that data in your application.
 
 Category 3: Data Display: Visualize data in a graph, chart, or other visual representation of data.
