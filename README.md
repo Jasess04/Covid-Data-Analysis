@@ -1,6 +1,10 @@
  Covid-Data-Analysis
 
 This project is focused on daily reported data published by John Hopkins University for March 6th, 2022. The data was pulled from the Covid-19 Data Repository by the Center for Science and Engineering (CSSE) at John Hopkins University. The data is published as a CVS file every day. The project will be taking the raw CVS data and turning it into a bar graph that shows the top 20 countries with the most confirmed covid cases from most to least descending. 
+
+The Plot graphic displays the top 20 countries with the maximum number of confirmed covid cases at the time the data was collected. 
+
+The second Plot shows the top 5 countries with the maximum number of confirmed covid cases. 
                                                                                                       
 =======
 
@@ -15,7 +19,7 @@ Instructions
 Pull the code down: git clone https://github.com/Jasess04/Covid-Data-Analysis
 Enter project folder: cd Covid-Data-Analysis-main
 Install required Python packages: pip install -r requirements
-Execute: python ./src/main.py
+Execute: python CovidData.py
 
 =======
 
