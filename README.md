@@ -1,6 +1,6 @@
  Covid-Data-Analysis
 
-This project is focused on daily reported data published by John Hopkins University for March 6th, 2022. The data was pulled from the Covid-19 Data Repository by the Center for Science and Engineering (CSSE) at John Hopkins University. The data is published as a CVS file every day. The project will be taking the raw CVS data and turning it into a bar graph that shows the top 20 countries with the most confirmed covid cases from most to least descending. 
+This project is focused on daily reported data published by John Hopkins University for March 28th, 2022. The data was pulled from the Covid-19 Data Repository by the Center for Science and Engineering (CSSE) at John Hopkins University. The data is published as a CVS file every day. The project will be taking the raw CVS data and turning it into a bar graph that shows the top 20 countries with the most confirmed covid cases from most to least descending. 
 
 The Plot graphic displays the top 20 countries with the maximum number of confirmed covid cases at the time the data was collected. 
 
@@ -43,7 +43,7 @@ Expectation
 
 A message in the terminal should inform the user that the data is populating. 
 
-The Data will be pulled from the John Hopkins URL for 3/6/2022 and the data will be tabulated onto a BAR CHART figure showing the top 20 countries with confirmed covid cases in different colors. 
+The Data will be pulled from the John Hopkins URL for 3/28/2022 and the data will be tabulated onto a BAR CHART figure showing the top 20 countries with confirmed covid cases in different colors. 
 
 The next data chart shows the top five countries with the most confirmed covid cases at the time of the data pull. This chart will appear after the first chart is closed. 
 
